@@ -19,7 +19,7 @@ export const appRoutes = [
 <<<<<<< HEAD
     {path:'users',loadChildren:'./user/user.module#UserModule'},
 =======
-     {path:'users',loadChildren:'./user/user.module#UserModule'},
+    
 >>>>>>> task2
 =======
 >>>>>>> 075f77fdd9e4bd5094ff1a4baf6649029c01adbb
