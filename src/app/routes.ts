@@ -13,6 +13,7 @@ export const appRoutes = [
     {path:'404',component:Error404Component},
     {path:'',redirectTo:'/events',pathMatch:'full'},
     {path:'user',loadChildren:'./user/user.module#UserModule'},
+<<<<<<< HEAD
    
     {path:'profiles',loadChildren:'./user/user.module#UserModule'},
 <<<<<<< HEAD
@@ -20,5 +21,7 @@ export const appRoutes = [
 =======
      {path:'users',loadChildren:'./user/user.module#UserModule'},
 >>>>>>> task2
+=======
+>>>>>>> 075f77fdd9e4bd5094ff1a4baf6649029c01adbb
     
 ] 
