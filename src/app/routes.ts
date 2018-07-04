@@ -15,6 +15,6 @@ export const appRoutes = [
     {path:'user',loadChildren:'./user/user.module#UserModule'},
    
     {path:'profiles',loadChildren:'./user/user.module#UserModule'},
-     {path:'users',loadChildren:'./user/user.module#UserModule'},
+    {path:'users',loadChildren:'./user/user.module#UserModule'},
     
 ] 
