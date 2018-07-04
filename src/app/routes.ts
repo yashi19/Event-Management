@@ -12,4 +12,5 @@ export const appRoutes = [
     {path: 'events/:id',component:EventDetailsComponent,canActivate:[EventRouteActivator]},
     {path:'404',component:Error404Component},
     {path:'',redirectTo:'/events',pathMatch:'full'},
+    {path:'',component:EventDetailsComponent}
 ]
