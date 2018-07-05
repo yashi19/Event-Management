@@ -14,6 +14,4 @@ export const appRoutes = [
     {path:'',redirectTo:'/events',pathMatch:'full'},
     {path:'user',loadChildren:'./user/user.module#UserModule'},
     {path:'profiles',loadChildren:'./user/user.module#UserModule'},
-    
-
 ] 

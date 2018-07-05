@@ -13,8 +13,16 @@ import { Component } from '@angular/core;
     }`]
 })
 export class Error404Component{
-  constructor() {
 
+  errorMessage:string;
+
+  constructor() {
+    this.errorMessage='some error';
+  }
+
+  displayError(){
+    console.log(this.errorMessage);
+    
   }
 
 
