@@ -14,21 +14,19 @@ import { Component } from '@angular/core;
 })
 export class Error404Component{
 
-  errorMessage:string;
+ 
 
   constructor() {
-    this.errorMessage='some error';
-  }
-
-  displayError(){
-    console.log(this.errorMessage);
     
   }
 
-
-  showError(errorMessage){
+  displayError(errorMessage){
     console.log(errorMessage);
+    console.log("My func");
     
   }
+
+
+  
 
 }
