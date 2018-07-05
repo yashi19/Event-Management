@@ -21,6 +21,8 @@ export class Error404Component{
 
   displayError(){
     console.log(this.errorMessage);
+    console.log("WHere ");
+    
     
   }
 
