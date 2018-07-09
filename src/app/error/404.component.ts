@@ -1,4 +1,5 @@
-import { Component } from '@angular/core'
+import { Component } from '@angular/core;
+'
 
 @Component({
   template: `
@@ -13,17 +14,15 @@ import { Component } from '@angular/core'
 })
 export class Error404Component{
 
-  errorMessage:string;
+ 
 
   constructor() {
-    this.errorMessage='some error';
-  }
-
-  displayError(){
-    console.log(this.errorMessage);
-    console.log("WHere ");
-    
     
   }
 
+  displayError(errorMessage){
+    console.log(errorMessage);
+    console.log("My func");
+    
+  }
 }
